@@ -1,0 +1,13 @@
+# Node 
+node_modules
+
+# Tests
+e2e/cypress/integration/examples
+
+# Build assets
+public/build
+public/index.html
+
+# IDE
+.alm
+.vscode

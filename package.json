@@ -1,0 +1,35 @@
+{
+  "name": "react-typescript",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basarat/react-typescript.git"
+  },
+  "scripts": {
+    "build": "webpack -p --progress",
+    "start": "webpack-dev-server -d --content-base ./public",
+    "lint": "tslint -p tsconfig.json",
+    "prettier:base": "prettier --parser typescript --single-quote",
+    "prettier:check": "npm run prettier:base -- --list-different \"src/**/*.{ts,tsx}\"",
+    "prettier:write": "npm run prettier:base -- --write \"src/**/*.{ts,tsx}\"",
+    "preCommit": "npm run prettier:write"
+  },
+  "dependencies": {
+    "@types/react": "16.8.1",
+    "@types/react-dom": "16.0.11",
+    "clean-webpack-plugin": "1.0.1",
+    "html-webpack-plugin": "3.2.0",
+    "moment": "^2.24.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "ts-loader": "^5.3.3",
+    "webpack": "4.29.1",
+    "webpack-cli": "3.2.1",
+    "webpack-dev-server": "3.1.14"
+  },
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  }
+}

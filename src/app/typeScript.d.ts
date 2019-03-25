@@ -1,0 +1,30 @@
+export declare class typeScript {
+    static Destructuring(): void;
+    static SpreadOperator(): void;
+    static ForOf(): void;
+    static Iterators(): void;
+    static TemplateStrings(): void;
+    static Promises(waitMilliseconds: number, result: number): void;
+    static Generators(): void;
+    static AsyncAwait(): Promise<number>;
+    static DeclarationSpaces(): void;
+    static LazyModuleLoading(): void;
+    static UnionType(command: string[] | string): void;
+    static TupleType(): void;
+    static TypeAlias(): void;
+    static Enums(): void;
+    static FunctionOverloading(): void;
+    static Callable(): void;
+    static TypeAssertion(): void;
+    static TypeOf(x: number | string): void;
+    static LiteralTypes(): void;
+    static ReadOnly(): void;
+    static StructuralTypeCompatibility(): void;
+    static DiscriminatedUnions(): void;
+    static IndexSignatures(): void;
+    static DeclaringIndexSignatures(): void;
+    static MovingTypes(): void;
+    static Mixins(): void;
+    static StrictNullChecks(): void;
+    private static htmlEscape;
+}
